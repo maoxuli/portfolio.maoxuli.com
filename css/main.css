@@ -10,6 +10,7 @@ body {
   font-size: 15px;
   line-height:150%;
   text-align: left;
+  border:1px solid red;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,6 +48,7 @@ table td {
 .wrapper {
   margin: 20px auto 20px 20px;
   width:45em;
+  border: 1px solid blue;
 }
 
 .footer {
