@@ -4,6 +4,7 @@
 }
 
 html, body { 
+  width: 100%;
   height: 100%; 
 }
 
@@ -46,7 +47,7 @@ table {
 
 .wrapper {
   margin: 1em auto 1em 1em;
-  width:45em;
+  //width:45em;
 }
 
 .footer {
