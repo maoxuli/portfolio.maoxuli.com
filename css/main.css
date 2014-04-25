@@ -4,22 +4,21 @@
 }
 
 html, body { 
-  width: 100%;
   height: 100%; 
 }
 
 body {
   background-color: #FFF;
   color: #000;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 93.75%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
   line-height:150%;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
-  font-size: 1.07em;
+  font-size: 16px;
 }
 
 p { 
@@ -46,13 +45,13 @@ table {
 }
 
 .wrapper {
-  margin: 1em auto 1em 1em;
-  //width:45em;
+  margin: 20px auto 20px 20px;
+  width:45em;
 }
 
 .footer {
-  margin-top:1em;
-  padding-bottom: 1em;
+  margin-top:20px;
+  padding-bottom: 30px;
 }
 
 .comment a:link, 
@@ -71,8 +70,8 @@ table {
 }
 
 .post-nav {
-  margin-top:1em;
-  margin-bottom:2em;
+  margin-top:10px;
+  margin-bottom:30px;
   text-align: right;
 }
 
@@ -83,12 +82,12 @@ table {
 .post-title {
   padding-bottom:0.5em;
   border-bottom: 2px solid #eee;
-  font-size:1.2em;
+  font-size:18px;
   font-weight:bold;
 }
 
 .post-meta {
-  font-size:0.86em;
+  font-size:13px;
   color:#888;
 }
 
@@ -102,7 +101,7 @@ table {
 }
 
 .listing-item span {
-  font-size:0.9em;
+  font-size:13px;
   color: #999;
 }
 
@@ -111,7 +110,7 @@ table {
 }
 
 .page-nav {
-  margin-top: 2em;
+  margin-top: 30px;
 }
 
 .page-nav .current-page {
@@ -124,12 +123,14 @@ table {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  font-size: 13px;
 }
 
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
+  font-size: 13px;
 }
 
 .post pre code {
