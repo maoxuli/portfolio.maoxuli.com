@@ -1,9 +1,43 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-{{ content }}
+<div class="post-title">{{ page.title }}</div>
+<div class="post-meta">
+<span>
+	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+</span>
+{% if page.categories.size != 0 %} 
+ | 
+<span>Categories: 
+{% for cat in page.categories %}
+	<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+{% endfor %}
+</span>
+{% endif %}
+{% if page.tags.size != 0 %}
+ | 
+<span>Tags: 
+{% for tag in page.tags %}
+	<a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+{% endfor %}
+</span>
+{% endif %}
 </div>
+
+{{ content }}
+
+</div>
+
+<div class="post-nav">
+	{% if page.previous %} <a href="{{ page.previous.url }}">&lt;PREV</a>
+  {% else %} <span>&lt;PREV</span>
+  {% endif %}
+	|
+	{% if page.next %}<a href="{{ page.next.url }}">NEXT&gt;</a>
+  {% else %} <span>NEXT&gt;</span>
+  {% endif %}
+</div>
+
+{% include comments.md %}
