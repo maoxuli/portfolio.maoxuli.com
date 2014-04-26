@@ -7,14 +7,14 @@ body {
   background-color: #FFF;
   color: #000;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 100%;
   line-height:150%;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
-  font-size: 16px;
+  font-size: 1.125em;
 }
 
 p { 
@@ -90,7 +90,7 @@ table td {
 }
 
 .post-meta {
-  font-size:13px;
+  font-size:0.875em;
   color:#888;
 }
 
@@ -104,7 +104,7 @@ table td {
 }
 
 .listing-item span {
-  font-size:13px;
+  font-size:0.94em;
   color: #999;
 }
 
@@ -126,14 +126,14 @@ table td {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
-  font-size: 13px;
+  font-size: 094em;
 }
 
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
-  font-size: 13px;
+  font-size: 0.94em;
 }
 
 .post pre code {
