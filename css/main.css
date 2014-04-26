@@ -68,7 +68,7 @@ table td {
 }
 
 .comment, .page-nav, .post-nav {
-  font-family: Courier, "Courier New", monospace;
+  font-family: "Courier New",Courier,monospace;
   color: green;
 }
 
