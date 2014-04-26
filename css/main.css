@@ -99,7 +99,7 @@ table td {
   text-decoration: underline;
 }
 
-.comment, .page-nav, .post-nav {
+.comment {
   font-family: "Courier New",Courier,monospace;
   color: green;
 }
@@ -107,6 +107,7 @@ table td {
 .post-nav {
   margin-top:1em;
   margin-bottom:2em;
+  font-family: "Courier New",Courier,monospace;
   text-align: right;
 }
 
@@ -146,6 +147,7 @@ table td {
 
 .page-nav {
   margin-top: 2em;
+  font-family: "Courier New",Courier,monospace;
 }
 
 .page-nav .current-page {
