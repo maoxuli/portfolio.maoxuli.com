@@ -7,7 +7,7 @@ body {
   background-color: #FFF;
   color: #000;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height:150%;
   text-align: left;
 }
@@ -50,7 +50,7 @@ table td {
 }
 
 .footer {
-  margin-top:20px;
+  margin-top:10px;
   padding-bottom: 30px;
 }
 
@@ -106,7 +106,7 @@ table td {
 }
 
 .listing-item a {
-	padding-left: 1em;
+	padding-left: 0.5em;
 }
 
 .page-nav {
