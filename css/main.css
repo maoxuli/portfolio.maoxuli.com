@@ -85,7 +85,7 @@ table td {
 .post-title {
   padding-bottom:0.5em;
   border-bottom: 2px solid #eee;
-  font-size:18px;
+  font-size:1.25em;
   font-weight:bold;
 }
 
@@ -120,22 +120,9 @@ table td {
   color: red;
 }
 
-/* highlight*/
-
-.post pre {
+.highlight {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
-  font-size: 094em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
   font-size: 0.94em;
-}
-
-.post pre code {
-  border: none;
 }
