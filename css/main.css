@@ -28,6 +28,7 @@ a:link {
 
 a:visited {
   color: purple;
+  text-decoration: none;
 }
 
 a:hover, 
@@ -57,11 +58,13 @@ table td {
 .comment a:link, 
 .comment a:visited {
   color: blue;
+  text-decoration: none;
 }
 
 .comment a:hover, 
 .comment a:active {
   color: red;
+  text-decoration: underline;
 }
 
 .comment, .page-nav, .post-nav {
