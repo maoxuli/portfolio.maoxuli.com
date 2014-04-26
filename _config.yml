@@ -1,8 +1,9 @@
 markdown: redcarpet
 permalink: /posts/:title.html
 pygments: true
-paginate: 50
+paginate: 20
 
 name: Maoxu Li
 author: Maoxu Li
+copyright: 2009-2014
 disqus: maoxuli
