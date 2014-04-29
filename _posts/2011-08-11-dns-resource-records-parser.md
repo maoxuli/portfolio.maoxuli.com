@@ -64,5 +64,5 @@ Another rule is only one pointer is permitted in a name field, and the pointer m
 
 We define a wrapper class here for a piece of Resource Record in Answer Section, rather than the Answer section itself. Design patterns of Strategy and Factory is used here for a extendable architecture to handle different types of Resource Records. A base class ResourceRecord handle the common parts of Resource Records and derived classes will handle RDATA according to the actual type. A class RRFactory works as a object factory to instantiate ResourceRecord object with given type. If there is no a derived class of ResourceRecord is defined for a given type, base class is instantiated. With this design, it is rather easy to support new types of Resource Records. What we need to do is define a new derived class of ResourceRecord and add a entry in RRFactory. We need to parse RDATA field of the Resource Record in derived class.
 
-Please find a copy code at <a hef="https://github.com/limlabs/dnsresolver">Github</a>. 
+Please find a copy code at <a href="https://github.com/limlabs/dnsresolver">Github</a>. 
 
