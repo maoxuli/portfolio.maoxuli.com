@@ -2,7 +2,7 @@
 layout: post
 title: "Network Programming - Marshalling and Unmarshalling of Protocol Message"
 categories: Programming
-tags: Network Memory Alignment Endianess STUN
+tags: Network STUN
 ---
 
 The application layer programming interface of TCP/IP network, aka socket, is designed to send and receive a sequence of byte stored in a block of contiguous memory. That means, the messages exchanged between communication parties must be mapped to/from a memory block (byte buffer). Actually an application layer protocol directly works on TCP/IP transport layer (i.e., TCP or UDP) must specify the memory formats of messages. Let's take STUN (IETF RFC 3489) as an example to see how a network message is defined.    

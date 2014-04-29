@@ -1,28 +1,26 @@
 ---
 layout: post
-title: Deck of Cards
-categories: Algorithm
-tags: Random
+title: "Object-Oriented Design - Deck of Cards"
+categories: Programming
+tags: Algorithm Shuffling Object-Oriented
 ---
 
 This assignment is to code, in an objected-oriented programming language, a set of classes that represent a deck of poker-style playing cards. (Fifty-two playing cards in four suits: hearts, spades, clubs, diamonds, with face value of Ace, 2-10, Jack, Queen, and King.)
 
 Within one of the classes, two operations must be provided:
 
-<ol>
-<li>shuffle()</li>
+1. shuffle()  
 Shuffle returns no value, but results in the cards in the deck being randomly permuted. Please do not use library-provided "shuffle" operations to implement this function. Library-provided random number generators may be used in solution.
-<li>deal_one_card()</li>
+2. deal_one_card() 
 This function should return one card from the deck to the caller.
-</ol>
 
 Specifically, a call to shuffle followed by 52 calls to deal_one_card should result in the caller being provided all 52 cards of the deck in a random order. If the caller then makes a 53rd call to deal_one_card, no card is dealt. 
 
 Many details of this assignment have been intentionally left vague. The principle of least surprise should be followed in making reasonable decisions regarding the implementation. 
 
-## Solution:
+# Solution:
 
-### Step 1. Specify the problem
+## Step 1. Specify the problem
 
 What should be included in solution has been described in the question. Here I specify the problem in details with some constrains (or what will not be included) as the basis of following analysis and design.  
 
@@ -35,7 +33,7 @@ What should be included in solution has been described in the question. Here I s
 <li>Shuffling can occur at any time. It is possible to shuffle a deck of cards when a part (not all) of the cards have been dealt.</li> 
 </ol>
 
-### Step 2. Object-oriented modeling (v1)
+## Step 2. Object-oriented modeling (v1)
 
 The problem will be resolved with object-oriented paradigm. In general, object-oriented modeling is one of the key parts of object-oriented software engineering. In practice it is usually an iterative and incremental process of analysis and design. Some techniques, like “noun extraction” and “class-responsibility-collaboration (CRC) cards” can be used to draw classes from use cases.  However, the result of this process is greatly dependent on the domain expertise of the developers. 
 
@@ -45,11 +43,11 @@ As to this problem, the use case is so simple and clear that we may draw up the 
 
 We will start with this simple model to implement an initial version of code (v1). Further discussion in Step 5 will refine this design and reach a second version of code (v2). 
 
-### Step 3. Shuffling algorithm
+## Step 3. Shuffling algorithm
 
 An effective and high-efficient algorithm is needed to shuffle cards. “Don’t reinvent the wheel!” There are many discussions about shuffling algorithms in textbooks and on Internet. Here is just a mini review as well as a bit analysis. In following discussion, we are supposed to shuffle n elements of an array.
 
-#### 1.	Radom selection
+### 1.	Radom selection
 
 In this algorithm, elements in original array are randomly selected one by one and put into a result array sequentially.  
 
@@ -57,11 +55,11 @@ A naïve implementation generates a random number from 1 to n each time as the p
 
 A further optimization is to put the selected element at the last unselected position of original array and move the last unselected element to the position just selected. This results in a swap algorithm that will be discussed later. 
   
-#### 2.	Random insertion
+### 2.	Random insertion
 
 The idea of this algorithm is similar to that in random selection. Now elements in original array are picked sequentially and put into a result array with random positions. The performance analysis and possible optimization of this algorithm is almost same as that of random selection.
 
-#### 3.	Random swap
+### 3.	Random swap
 
 Algorithm 3.1. Swap with two random positions
 
@@ -100,13 +98,13 @@ Time complexity of this algorithm is O(n) and auxiliary space is zero.
 
 It is worth to mention that STL (standard library of C++) provides a function to shuffle elements of a container (std::random_shuffle()), which follows Algorithm 3.2. 
 
-### Step 4. Coding and testing (v1)
+## Step 4. Coding and testing (v1)
 
 An initial solution based on above analysis and design is implemented with C++ and STL. You may find a complete copy of code (v1) at <a href="https://github.com/maoxuli/cards" target="_blank">Github</a>. Please note that this is just a proof-of-concept implementation. Some techniques that may be used in practice, e.g., namespace, smart pointer, inline function, and so on are not considered, as well as unit test and serious testing with test automation tools or profiling tools. 
 
 The code is compiled and debugged on Windows XP + VC2010 Express, Mac OS X 10.6 + gcc/g++/gdb, and Debian Linux 6 + gcc/g++/gdb.
 
-#### •	Demo program (cardsdemo)
+### •	Demo program (cardsdemo)
 
 The demo program is implemented to test and demonstrate the design and implementation of class Card and Deck. It simulates below actions in sequence:
 <ol>
@@ -124,13 +122,13 @@ Here is a snapshot of screen:
 
 <img src="/images/cards_screen_1.jpg " alt="" />
 
-#### •	Test Program (cardstest)
+### •	Test Program (cardstest)
 
 The test program is implemented to test the performance of shuffle algorithm in terms of its running speed.  Here is some snapshot of screen: 
 
 <img src="/images/cards_screen_2.jpg " alt="" />
 
-### Step 5. Refactoring with design patterns (v2)
+## Step 5. Refactoring with design patterns (v2)
 
 Refactoring is to alter the internal design and implementation of software to improve its maintainability and extendibility without changing its behavior and interface. A refined design (shown in figure below) can be reached with further analysis as following.
 
