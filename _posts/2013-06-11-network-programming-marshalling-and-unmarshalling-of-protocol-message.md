@@ -61,7 +61,7 @@ With these classes, the applications can manipulate the data fields but not nece
 
 # Marshalling and Unmarshalling
 
-These are jargon used in object-oriented programming and networking programming. In a few words, "marshalling" refers to the process of encoding the data or the object into a byte sequence, and "unmarshalling" is the reverse process of decoding the byte sequence beack to their original data or object. Accordingly, {% highlight cpp %}Message::toBuffer(){% endhighlight %} will do marshalling and {% highlight cpp %}Message::fromBuffer(){% endhighlight %} will do unmarshalling. 
+These are jargon used in object-oriented programming and networking programming. In a few words, "marshalling" refers to the process of encoding the data or the object into a byte sequence, and "unmarshalling" is the reverse process of decoding the byte sequence beack to their original data or object. Accordingly, Message::toBuffer() will do marshalling and Message::fromBuffer() will do unmarshalling. 
 
 Obviously, a straight-forward way to do marshalling and unmarshalling is to read and write the memory field by field, as is shown below:
 
