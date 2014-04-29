@@ -77,6 +77,15 @@ table td {
   white-space:nowrap; 
 }
 
+ul, ol, li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-left: 2em;
+}
+
 .wrapper {
   margin: 1.25em auto 1.25em 1.25em;
   width:45em;
