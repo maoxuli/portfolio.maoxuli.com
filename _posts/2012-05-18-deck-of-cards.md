@@ -11,7 +11,7 @@ Within one of the classes, two operations must be provided:
 
 1. shuffle()  
 Shuffle returns no value, but results in the cards in the deck being randomly permuted. Please do not use library-provided "shuffle" operations to implement this function. Library-provided random number generators may be used in solution.
-2. deal_one_card() 
+2. deal_one_card()  
 This function should return one card from the deck to the caller.
 
 Specifically, a call to shuffle followed by 52 calls to deal_one_card should result in the caller being provided all 52 cards of the deck in a random order. If the caller then makes a 53rd call to deal_one_card, no card is dealt. 
