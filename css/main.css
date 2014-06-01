@@ -77,15 +77,6 @@ table td {
   white-space:nowrap; 
 }
 
-ul, ol, li {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-li {
-  margin-left: 1.5em;
-}
-
 .wrapper {
   margin: 1.25em auto 1.25em 1.25em;
   width:45em;
@@ -120,6 +111,7 @@ li {
   text-align: right;
 }
 
+.page, 
 .post {
   padding:1em 0;
 }
@@ -129,6 +121,10 @@ li {
   border-bottom: 2px solid #eee;
   font-size:1.125em;
   font-weight:bold;
+}
+
+.post li {
+  margin-left: 1.5em;
 }
 
 .post-meta {
