@@ -5,19 +5,7 @@ title: Portfolio
 
 <ul class="listing">
 {% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator comment" id="{{ y }}">// {{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <span>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    </span>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    {% if site.truncate %}
-    <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
+  <li>{{ post.title }}
   </li>
 {% endfor %}
 </ul>
