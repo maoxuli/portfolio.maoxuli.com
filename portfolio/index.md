@@ -5,7 +5,8 @@ title: Portfolio
 
 <ul class="listing">
 {% for post in site.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if {{ post.close }} != null %}
+  {% capture y %}{{post.close | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
     <li class="listing-seperator comment" id="{{ y }}">// {{ y }}</li>
@@ -19,5 +20,6 @@ title: Portfolio
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
