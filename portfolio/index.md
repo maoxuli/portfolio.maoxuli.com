@@ -5,7 +5,7 @@ title: Portfolio
 
 <ul class="listing">
 {% for post in site.posts %}
-  {% if post.close != null %}
+  {% if post.close %}
   {% capture y %}{{post.close | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
