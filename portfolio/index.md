@@ -12,7 +12,7 @@ title: Portfolio
   {% endif %}
   <li class="listing-item">
     <span>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+      <time datetime="{{ post.close | date:"%Y-%m-%d" }}">{{ post.close | date:"%Y-%m-%d" }}</time>
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     {% if site.truncate %}
