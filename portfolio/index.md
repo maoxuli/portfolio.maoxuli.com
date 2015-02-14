@@ -5,7 +5,21 @@ title: Portfolio
 
 <ul class="listing">
 {% for post in site.posts %}
-  {% if post.close %}
+{% if post.close == null %}
+  <li class="listing-item">
+    <span>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%Y" }} - present</time>
+    </span>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    {% if site.truncate %}
+    <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
+    {% endif%}
+  </li>
+{% endif %}
+{% endfor %}
+	
+{% for post in site.posts %}
+{% if post.close %}
   {% capture y %}{{post.close | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -20,6 +34,6 @@ title: Portfolio
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
   </li>
-  {% endif %}
+{% endif %}
 {% endfor %}
 </ul>
