@@ -1,7 +1,5 @@
 markdown: redcarpet
-permalink: /posts/:title.html
-pygments: true
-paginate: 20
+permalink: /protfolio/:title
 
 name: Maoxu Li
 author: Maoxu Li
