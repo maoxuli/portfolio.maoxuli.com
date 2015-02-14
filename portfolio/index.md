@@ -5,6 +5,7 @@ title: Portfolio
 
 <ul class="listing">
 {% for post in site.posts %}
+  {% if post.close %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -19,5 +20,6 @@ title: Portfolio
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
