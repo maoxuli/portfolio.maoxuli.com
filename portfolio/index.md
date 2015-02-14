@@ -4,6 +4,7 @@ title: Portfolio
 ---
 
 <ul class="listing">
+<li class="listing-seperator comment" id="present">// Active at present</li>
 {% for post in site.posts %}
 {% if post.close == null %}
   <li class="listing-item">
