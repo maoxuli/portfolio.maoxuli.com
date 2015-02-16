@@ -7,7 +7,7 @@ title: Home
 <li class="listing-seperator comment" id="present">// Active at present</li>
 {% for post in site.posts %}
 {% if post.close == null %}
-  <li class="listing-item">
+  <p class="listing-item">
     <span>
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%Y" }} - present</time>
     </span>
@@ -15,7 +15,7 @@ title: Home
     {% if site.truncate %}
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
-  </li>
+  </p>
 {% endif %}
 {% endfor %}
 	
