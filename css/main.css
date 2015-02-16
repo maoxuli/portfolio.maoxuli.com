@@ -39,14 +39,14 @@ body {
   background-color: #FFF;
   color: #000;
   font-family: Helvetica, Arial, sans-serif;
-  //font-size: 100%;
+  font-size: 100%;
   line-height:150%;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
-  //font-size: 1.125em;
+  font-size: 1.125em;
 }
 
 p { 
@@ -70,10 +70,13 @@ a:active {
 }
 
 .wrapper {
-  margin: 2em auto 2em 2em;
+  margin:2em auto 2em 2em;
   width:45em;
 }
 
+.header {
+  width:100%;
+}
 .header p {
   margin:0;
   padding:0;
@@ -82,6 +85,7 @@ a:active {
 .footer {
   margin-top:1em;
   padding-bottom: 2em;
+  width:100%;
 }
 
 .footer p {
@@ -121,7 +125,7 @@ a:active {
 .post-title {
   padding-bottom:0.5em;
   border-bottom: 2px solid #eee;
-  //font-size:1.125em;
+  font-size:1.125em;
   font-weight:bold;
 }
 
@@ -130,7 +134,7 @@ a:active {
 }
 
 .post-meta {
-  //font-size:0.875em;
+  font-size:0.875em;
   color:#888;
 }
 
@@ -144,7 +148,7 @@ a:active {
 }
 
 .listing-item span {
-  //font-size:0.95em;
+  font-size:0.95em;
   color: #999;
 }
 
@@ -165,9 +169,5 @@ a:active {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 0.5em;
-  //font-size: 0.95em;
-}
-
-ul li {
-	//font-size:12px;
+  font-size: 0.95em;
 }
