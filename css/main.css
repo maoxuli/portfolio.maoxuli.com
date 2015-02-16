@@ -71,7 +71,6 @@ a:active {
 
 table {
   border-collapse: collapse;
-  font-size: 1em;
 }
 
 table td {
@@ -165,4 +164,8 @@ table td {
   background-color: #eef;
   padding: 0 0.5em;
   font-size: 0.95em;
+}
+
+ul {
+	font-size:100%;
 }
