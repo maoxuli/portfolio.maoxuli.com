@@ -82,6 +82,11 @@ table td {
   width:45em;
 }
 
+.header p {
+	margin:0;
+	padding:0;
+}
+
 .footer {
   margin-top:1em;
   padding-bottom: 2em;
