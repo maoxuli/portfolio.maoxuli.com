@@ -87,6 +87,12 @@ table td {
   padding-bottom: 2em;
 }
 
+.footer p {
+  margin:0;
+  padding:0;
+  line-height:100%;
+}
+
 .comment a:link, 
 .comment a:visited {
   color: blue;
