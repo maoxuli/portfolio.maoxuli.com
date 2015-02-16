@@ -94,6 +94,12 @@ a:active {
   padding:0;
 }
 
+.comment {
+  font-family: "Courier New",Courier,monospace;
+  color: green;
+  white-space:nowrap;
+}
+
 .comment a:link, 
 .comment a:visited {
   color: blue;
@@ -106,10 +112,7 @@ a:active {
   text-decoration: underline;
 }
 
-.comment {
-  font-family: "Courier New",Courier,monospace;
-  color: green;
-}
+
 
 .post-nav {
   margin-top:1em;
