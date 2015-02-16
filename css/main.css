@@ -75,11 +75,12 @@ a:active {
 }
 
 .header {
-  width:100%;
+  width:45em;
 }
 .header p {
   margin:0;
   padding:0;
+  width:45em;
 }
 
 .footer {
