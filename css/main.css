@@ -101,7 +101,6 @@ a:active {
   color: green;
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellipsis;
   border: 1px solid #f00;
 }
 
