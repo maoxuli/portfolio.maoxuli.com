@@ -30,18 +30,8 @@
 36pt	  48px	  3em	      300%
 */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: #FFF;
-  color: #000;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
-  line-height:150%;
-  text-align: left;
+  font: 1em/150% Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,33 +59,41 @@ a:active {
   text-decoration: underline;
 }
 
-.wrapper {
-  margin:2em auto 2em 2em;
+#wrapper {
+  margin:20px auto 10px 20px;
+  width:960px;
+  padding: 10px;
+}
+
+#header {
   width:800px;
 }
 
-.header {
-  width:800px;
-}
-.header p {
-  margin:0;
-  padding:0;
-  width:800px;
-}
-
-.footer {
+#footer {
   margin-top:1em;
   padding-bottom: 2em;
   width:100%;
 }
 
-.footer p {
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#wrapper {
+		width: 94%;
+	}
+}
+
+#header p, #footer p {
   margin:0;
   padding:0;
 }
 
+#wrapper, #header, #main, #footer {
+	border: 1px solid #000;
+}
+
 .comment {
-  font-family: "Courier New",Courier,monospace;
+  font-family: 1em/150% "Courier New",Courier,monospace;
   color: green;
   white-space:nowrap;
 }
