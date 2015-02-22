@@ -66,13 +66,17 @@ a:active {
 }
 
 #header {
-  width:800px;
+  width:auto;
+}
+
+#main {
+  width:auto;
 }
 
 #footer {
   margin-top:1em;
   padding-bottom: 2em;
-  width:100%;
+  width:auto;
 }
 
 /* for 980px or less */
@@ -93,9 +97,12 @@ a:active {
 }
 
 .comment {
-  font-family: 1em/150% "Courier New",Courier,monospace;
+  font: 1em/150% "Courier New",Courier,monospace;
   color: green;
   white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  border: 1px solid #f00;
 }
 
 .comment a:link, 
@@ -160,7 +167,7 @@ a:active {
 
 .page-nav {
   margin-top: 2em;
-  font-family: "Courier New",Courier,monospace;
+  font-family: 1em/150% "Courier New",Courier,monospace;
 }
 
 .page-nav .current-page {
