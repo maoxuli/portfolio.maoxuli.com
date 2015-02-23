@@ -62,8 +62,8 @@ body {
   width:800px;
 }
 
-/* for 1280px or less */
-@media screen and (max-width: 1280px) {
+/* for 800px or less */
+@media screen and (max-width: 800px) {
 	
 	body {
 	  font: 100%/150% Helvetica, Arial, sans-serif;
@@ -74,8 +74,8 @@ body {
 	}
 }
 
-/* for 800px or less */
-@media screen and (max-width: 800px) {
+/* for 720px or less */
+@media screen and (max-width: 720px) {
 	
 	body {
 	  font: 55%/150% Helvetica, Arial, sans-serif;
