@@ -77,10 +77,6 @@ body {
 /* for 720px or less */
 @media screen and (max-width: 720px) {
 	
-	body {
-	  font: 55%/150% Helvetica, Arial, sans-serif;
-	}
-	
 	#wrapper {
 		width: auto;
 	}
