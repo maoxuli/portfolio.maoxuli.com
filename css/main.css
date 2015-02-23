@@ -31,16 +31,11 @@
 */
 
 body {
-  font: 1em/150% Helvetica, Arial, sans-serif;
+  font: 100%/150% Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0;
   font-size: 1.125em;
-}
-
-p { 
-  margin: 1em 0; 
 }
 
 a:link {
@@ -60,9 +55,8 @@ a:active {
 }
 
 #wrapper {
-  margin:20px auto 10px 20px;
-  width:960px;
-  padding: 10px;
+  margin:10px auto 10px 10px;
+  width:800px;
 }
 
 #header {
@@ -77,14 +71,6 @@ a:active {
   margin-top:1em;
   padding-bottom: 2em;
   width:auto;
-}
-
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
-	#wrapper {
-		width: 94%;
-	}
 }
 
 #header p, #footer p {
