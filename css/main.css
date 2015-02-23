@@ -46,18 +46,6 @@ a:active {
   text-decoration: underline;
 }
 
-body {
-  margin:0;
-  padding:0;
-  font: 100%/150% Helvetica, Arial, sans-serif;
-}
-
-#wrapper {
-  margin:0 auto 0 0;
-  padding:1em;
-  width:800px;
-}
-
 /* for 600px or less */
 @media screen and (max-width: 600px) {
 	
@@ -68,6 +56,18 @@ body {
 	#wrapper {
 		width: auto;
 	}
+}
+
+body {
+  margin:0;
+  padding:0;
+  font: 100%/150% Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  margin:0 auto 0 0;
+  padding:1em;
+  width:800px;
 }
 
 #header {
