@@ -55,7 +55,8 @@ a:active {
 }
 
 #wrapper {
-  margin:10px auto 10px 10px;
+  margin:0 auto 0 0;
+  padding:10px;
   width:800px;
 }
 
