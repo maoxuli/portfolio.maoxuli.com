@@ -49,49 +49,37 @@ a:active {
 body {
   margin:0;
   padding:0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #wrapper {
   width:800px;
   padding:1em;
   margin-right:auto;
-  font: 100%/150% Helvetica, Arial, sans-serif;
+  line-height:150%;
+  font-size:100%;
 }
 
 /* for 800px or less */
 @media screen and (max-width: 800px) {
-	
-	#wrapper {
-		width: auto;
-		font: 95%/150% Helvetica, Arial, sans-serif;
-	}
+  #wrapper {
+	width: auto;
+	font-size: 95%;
+  }
 }
 
 /* for 480px or less */
 @media screen and (max-width: 480px) {
-	
-	#wrapper {
-		width: auto;
-		font: 70%/150% Helvetica, Arial, sans-serif;
-	}
+  #wrapper {
+    font-size: 70%;
+  }
 }
 
 /* for 320px or less */
 @media screen and (max-width: 320px) {
-	
-	#wrapper {
-		width: auto;
-		font: 50%/150% Helvetica, Arial, sans-serif;
-	}
-}
-
-/* for 240px or less */
-@media screen and (max-width: 240px) {
-	
-	#wrapper {
-		width: auto;
-		font: 40%/150% Helvetica, Arial, sans-serif;
-	}
+  #wrapper {
+    font-size: 50%;
+  }
 }
 
 #header {
@@ -118,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .comment {
-  font: 1em/150% "Courier New",Courier,monospace;
-  color: green;
+  font-family:"Courier New",Courier,monospace;
+  color:green;
   white-space:nowrap;
   overflow:hidden;
 }
@@ -135,8 +123,6 @@ h1, h2, h3, h4, h5, h6 {
   color: red;
   text-decoration: underline;
 }
-
-
 
 .post-nav {
   margin-top:1em;
@@ -186,12 +172,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .listing-item a {
-	padding-left: 0.5em;
+  padding-left: 0.5em;
 }
 
 .page-nav {
   margin-top: 2em;
-  font-family: 1em/150% "Courier New",Courier,monospace;
+  font-family: "Courier New",Courier,monospace;
 }
 
 .page-nav .current-page {
