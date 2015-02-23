@@ -3,8 +3,8 @@ layout: page
 title: Home
 ---
 
-<ul class="listing">
-<li class="listing-seperator comment" id="present">// Active at present</li>
+<div class="listing">
+<p class="listing-seperator comment" id="present">// Active at present</p>
 {% for post in site.posts %}
 {% if post.close == null %}
   <p class="listing-item">
@@ -12,10 +12,10 @@ title: Home
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%Y" }} - present</time>
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    {% if site.truncate %}
-    <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
   </p>
+  {% if site.truncate %}
+    <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
+  {% endif%}
 {% endif %}
 {% endfor %}
 	
@@ -24,17 +24,17 @@ title: Home
   {% capture y %}{{post.close | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator comment" id="{{ y }}">// {{ y }}</li>
+    <p class="listing-seperator comment" id="{{ y }}">// {{ y }}</p>
   {% endif %}
-  <li class="listing-item">
+  <p class="listing-item">
     <span>
       <time datetime="{{ post.close | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%Y" }} - {{ post.close | date:"%m/%Y" }}</time>
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    {% if site.truncate %}
+  </p>    
+  {% if site.truncate %}
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
-  </li>
+  {% endif%}
 {% endif %}
 {% endfor %}
-</ul>
+</div>
