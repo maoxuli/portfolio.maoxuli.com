@@ -63,12 +63,12 @@ body {
 	
 	#wrapper {
 		width: auto;
-		font: 100%/150% Helvetica, Arial, sans-serif;
+		font: 80%/150% Helvetica, Arial, sans-serif;
 	}
 }
 
-/* for 600px or less */
-@media screen and (max-width: 600px) {
+/* for 400px or less */
+@media screen and (max-width: 400px) {
 	
 	#wrapper {
 		width: auto;
