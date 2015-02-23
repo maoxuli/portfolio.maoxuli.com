@@ -58,8 +58,17 @@ body {
   font: 100%/150% Helvetica, Arial, sans-serif;
 }
 
-/* for 480px or less */
-@media screen and (max-width: 480px) {
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+	
+	#wrapper {
+		width: auto;
+		font: 100%/150% Helvetica, Arial, sans-serif;
+	}
+}
+
+/* for 400px or less */
+@media screen and (max-width: 400px) {
 	
 	#wrapper {
 		width: auto;
