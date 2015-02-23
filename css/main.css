@@ -58,23 +58,19 @@ body {
 
 #wrapper {
   margin:0 auto 0 0;
-  padding:2em;
+  padding:1em;
   width:800px;
 }
 
-/* for 1280px or less */
-@media screen and (max-width: 1280px) {
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+	
+	body {
+	  font: 55%/150% Helvetica, Arial, sans-serif;
+	}
 	
 	#wrapper {
-		width: 100%;
-	}
-}
-
-/* for 720px or less */
-@media screen and (max-width: 720px) {
-
-	body {
-	  font: 70%/150% Helvetica, Arial, sans-serif;
+		width: 96%;
 	}
 }
 
