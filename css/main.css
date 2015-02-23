@@ -58,8 +58,8 @@ body {
   font: 100%/150% Helvetica, Arial, sans-serif;
 }
 
-/* for 400px or less */
-@media screen and (max-width: 400px) {
+/* for 480px or less */
+@media screen and (max-width: 480px) {
 	
 	#wrapper {
 		width: auto;
@@ -84,10 +84,6 @@ body {
 #header p, #footer p {
   margin:0;
   padding:0;
-}
-
-#wrapper, #header, #main, #footer {
-	border: 1px solid #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
