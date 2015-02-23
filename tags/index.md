@@ -9,16 +9,16 @@ title: Tags
 {% endfor %}
 </div>
 
-<ul class="listing">
+<div class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator comment" id="{{ tag[0] }}">// {{ tag[0] }}</li>
+  <p class="listing-seperator comment" id="{{ tag[0] }}">// {{ tag[0] }}</p>
 {% for post in tag[1] %}
-  <li class="listing-item">
+  <p class="listing-item">
     <span>
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  </p>
 {% endfor %}
 {% endfor %}
-</ul>
+</div>

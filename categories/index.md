@@ -9,17 +9,17 @@ title: Categories
 {% endfor %}
 </div>
 
-<ul class="listing">
+<div class="listing">
 {% for cat in site.categories %}
-  <li class="listing-seperator comment" id="{{ cat[0] }}">// {{ cat[0] }}</li>
+  <p class="listing-seperator comment" id="{{ cat[0] }}">// {{ cat[0] }}</p>
 {% for post in cat[1] %}
-  <li class="listing-item">
+  <p class="listing-item">
     <span>
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  </p>
 {% endfor %}
 {% endfor %}
-</ul>
+</div>
 
