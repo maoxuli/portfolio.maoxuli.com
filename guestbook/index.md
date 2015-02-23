@@ -4,4 +4,4 @@ title: Guestbook
 comments: yes
 ---
 
-You are welcome to leave your message.
+<h1>You are always welcome to leave a message.</h1>
