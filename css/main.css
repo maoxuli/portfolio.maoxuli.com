@@ -64,14 +64,14 @@ body {
 @media screen and (max-width: 800px) {
   #wrapper {
 	width: auto;
-	font-size: 87.5%;
+	font-size: 95%;
   }
 }
 
 /* for 640px or less */
 @media screen and (max-width: 640px) {
   #wrapper {
-    font-size: 80%;
+    font-size: 70%;
   }
 }
 
