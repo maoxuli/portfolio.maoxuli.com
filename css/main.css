@@ -58,8 +58,8 @@ body {
   font: 100%/150% Helvetica, Arial, sans-serif;
 }
 
-/* for 900px or less */
-@media screen and (max-width: 900px) {
+/* for 800px or less */
+@media screen and (max-width: 800px) {
 	
 	#wrapper {
 		width: auto;
