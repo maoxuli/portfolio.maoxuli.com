@@ -63,16 +63,34 @@ body {
 	
 	#wrapper {
 		width: auto;
-		font: 80%/150% Helvetica, Arial, sans-serif;
+		font: 95%/150% Helvetica, Arial, sans-serif;
 	}
 }
 
-/* for 400px or less */
-@media screen and (max-width: 400px) {
+/* for 480px or less */
+@media screen and (max-width: 480px) {
 	
 	#wrapper {
 		width: auto;
-		font: 55%/150% Helvetica, Arial, sans-serif;
+		font: 70%/150% Helvetica, Arial, sans-serif;
+	}
+}
+
+/* for 320px or less */
+@media screen and (max-width: 320px) {
+	
+	#wrapper {
+		width: auto;
+		font: 50%/150% Helvetica, Arial, sans-serif;
+	}
+}
+
+/* for 240px or less */
+@media screen and (max-width: 240px) {
+	
+	#wrapper {
+		width: auto;
+		font: 50%/150% Helvetica, Arial, sans-serif;
 	}
 }
 
