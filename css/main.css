@@ -30,10 +30,6 @@
 36pt	  48px	  3em	      300%
 */
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1.125em;
-}
-
 a:link {
   color: blue;
   text-decoration: none;
@@ -66,18 +62,6 @@ body {
 @media screen and (max-width: 800px) {
 	
 	body {
-	  font: 100%/150% Helvetica, Arial, sans-serif;
-	}
-	
-	#wrapper {
-		width: 800px;
-	}
-}
-
-/* for 720px or less */
-@media screen and (max-width: 720px) {
-	
-	body {
 	  font: 55%/150% Helvetica, Arial, sans-serif;
 	}
 	
@@ -107,6 +91,10 @@ body {
 
 #wrapper, #header, #main, #footer {
 	border: 1px solid #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.125em;
 }
 
 .comment {
