@@ -77,7 +77,7 @@ body {
 }
 
 /* less than 480px*/
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   #wrapper {
     font-size: 50%;
   }
