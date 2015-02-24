@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Practice on responsive web page design"
+title: "Responsive web design"
 categories: Web
 tags: HTML CSS
 close: 2014-12-01
@@ -15,6 +15,7 @@ I have maintained a website in terms of "portfolio" for several years, which hav
 Reference:
 
 [1] <a href="http://alistapart.com/article/responsive-web-design">http://alistapart.com/article/responsive-web-design</a>
+
 [2] <a href="http://www.benjaminkeen.com/open-source-projects/smaller-projects/responsive-design-bookmarklet">http://www.benjaminkeen.com/open-source-projects/smaller-projects/responsive-design-bookmarklet</a>
 
  
