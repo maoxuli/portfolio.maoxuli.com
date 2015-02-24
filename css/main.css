@@ -92,19 +92,12 @@ body {
 /* for 480px or less*/
 @media screen and (max-width: 480px) {
   #wrapper {
-    font-size: 62.5%;
+    font-size: 70%;
   }
 }
 
 /* for 400px or less*/
 @media screen and (max-width: 400px) {
-  #wrapper {
-    font-size: 55%;
-  }
-}
-
-/* for 320px or less*/
-@media screen and (max-width: 320px) {
   #wrapper {
     font-size: 50%;
   }
