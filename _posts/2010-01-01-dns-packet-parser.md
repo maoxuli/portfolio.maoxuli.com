@@ -14,4 +14,4 @@ The library is coding in C++ and in a style of object-orientation. It supports p
 
 A demo program is implemented to demonstrate the usage of the library. It runs with a given argument of target domain name. It connects to a DNS server and retrieve all kinds of resource records for the domain name as is shown in below screen shot. You may find a copy of the source code at <a href="https://github.com/limlabs/dns">Github</a>.
 
-<img src="images/dnsresolver.png" width="80%" />
+<img src="/images/dnsresolver.png" width="80%" />
