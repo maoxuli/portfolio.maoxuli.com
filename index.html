@@ -19,7 +19,7 @@ title: Home
 
 {% for post in site.posts %}
 {% if post.close %}
-  {% capture y %}{{post.close | date:"%Y"}}{% endcapture %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
     <p class="listing-seperator comment" id="{{ y }}">// {{ y }}</p>
