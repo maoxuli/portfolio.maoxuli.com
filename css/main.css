@@ -66,47 +66,27 @@ body {
   #wrapper {
 	width: auto;
 	font-size: 95%;
-	color:#f00;
   }
 }
 
-/* for 640px or less, Moto G landscape is 598 */
+/* for 640px or less, new mobile landscape */
 @media screen and (max-width: 640px) {
   #wrapper {
     font-size: 87.5%;
-    color:#0f0;
   }
 }
 
-/* for 560px or less*/
-@media screen and (max-width: 560px) {
-  #wrapper {
-    font-size: 55%;
-    color:#0ff;
-  }
-}
-
-/* for 480px or less, iPhone 4s landscape*/
+/* for 480px or less, old mobile landscape*/
 @media screen and (max-width: 480px) {
   #wrapper {
     font-size: 55%;
-    color:#00f;
   }
 }
 
-/* for 360px or less, Moto G portrait*/
+/* for 360px or less, mobile portrait*/
 @media screen and (max-width: 360px) {
   #wrapper {
     font-size: 50%;
-    color:#f00;
-  }
-}
-
-/* for 320px or less, iPhone 4s portrait*/
-@media screen and (max-width: 320px) {
-  #wrapper {
-    font-size: 50%;
-    color:#f00;
   }
 }
 
