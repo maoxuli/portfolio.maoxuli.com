@@ -1,33 +1,27 @@
 /* Font size conversion
 
-6pt		8px	    0.5em	  50%
-7pt	    9px	    0.55em	  55%
-7.5pt	10px	0.625em	  62.5%
-8pt	    11px	0.7em	  70%
-9pt	    12px	0.75em	  75%
-10pt	13px	0.8em	  80%
-10.5pt	14px	0.875em	  87.5%
-11pt	15px	0.95em	  95%
-12pt	16px	1em	      100%
-13pt	  17px	  1.05em	105%
-13.5pt	  18px	  1.125em	112.5%
-14pt	  19px	  1.2em	    120%
-14.5pt	  20px	  1.25em	125%
-15pt	  21px	  1.3em	    130%
-16pt	  22px	  1.4em	    140%
-17pt	  23px	  1.45em	145%
-18pt	  24px	  1.5em	    150%
-20pt	  26px	  1.6em	    160%
-22pt	  29px	  1.8em	    180%
-24pt	  32px	  2em	    200%
-26pt	  35px	  2.2em	    220%
-27pt	  36px	  2.25em	225%
-28pt	  37px	  2.3em	    230%
-29pt	  38px	  2.35em	235%
-30pt	  40px	  2.45em	245%
-32pt	  42px	  2.55em	255%
-34pt	  45px	  2.75em	275%
-36pt	  48px	  3em	    300%
+5px		0.3125em	31.25%
+6px		0.3750em	37.50%
+7px		0.4375em	43.75%
+8px		0.5000em	50.00%
+9px		0.5625em	56.25%
+10px	0.6250em	62.50%
+11px	0.6875em	68.75%
+12px	0.7500em	75.00%
+13px	0.8125em	81.25%
+14px	0.8750em	87.50%
+15px	0.9375em	93.75%
+16px	1.0000em	100.00%
+17px	1.0625em	106.25%
+18px	1.1250em	112.50%
+19px	1.1875em	118.75%
+20px	1.2500em	125.00%
+21px	1.3125em	131.25%
+22px	1.3750em	137.50%
+23px	1.4375em	143.75%
+24px	1.5000em	150.00%
+25px	1.5625em	156.25%
+
 */
 
 a:link {
@@ -57,7 +51,7 @@ body {
   padding:0.75em;
   margin-right:auto;
   line-height:150%;
-  font-size:12px;
+  font-size:16px;
 }
 
 /* for 800px or less */
@@ -82,10 +76,24 @@ body {
   }
 }
 
-/* for 480px or less*/
-@media screen and (max-width: 480px) {
+/* less than 480px*/
+@media screen and (max-width: 479px) {
   #wrapper {
     font-size: 50%;
+  }
+}
+
+/* less than 360px*/
+@media screen and (max-width: 359px) {
+  #wrapper {
+    font-size: 50%;
+  }
+}
+
+/* less than 320px*/
+@media screen and (max-width: 319px) {
+  #wrapper {
+    font-size: 37.5%;
   }
 }
 
