@@ -58,6 +58,7 @@ body {
   margin-right:auto;
   line-height:150%;
   font-size:100%;
+  color:purple;
 }
 
 /* for 800px or less */
@@ -97,6 +98,7 @@ body {
 @media screen and (max-width: 400px) {
   #wrapper {
     font-size: 50%;
+    color:#f00;
   }
 }
 
