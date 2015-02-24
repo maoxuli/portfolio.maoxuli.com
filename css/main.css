@@ -89,7 +89,7 @@ body {
 /* for 480px or less, iPhone 4s landscape*/
 @media screen and (max-width: 480px) {
   #wrapper {
-    font-size: 50%;
+    font-size: 55%;
     color:#00f;
   }
 }
