@@ -77,6 +77,14 @@ body {
   }
 }
 
+/* for 560px or less */
+@media screen and (max-width: 560px) {
+  #wrapper {
+    font-size: 55%;
+    color:#0ff;
+  }
+}
+
 /* for 480px or less */
 @media screen and (max-width: 480px) {
   #wrapper {
@@ -85,8 +93,8 @@ body {
   }
 }
 
-/* for 320px or less */
-@media screen and (max-width: 320px) {
+/* for 400px or less */
+@media screen and (max-width: 400px) {
   #wrapper {
     font-size: 50%;
   }
