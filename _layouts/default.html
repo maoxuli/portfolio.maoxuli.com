@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ site.name }} - {{ page.title }}</title>
-        <link rel="stylesheet" href="/css/syntax.css">
-        <link rel="stylesheet" href="/css/main.css">
-		<!-- css3-mediaqueries.js for IE8 or older -->
-		<!--[if lt IE 9]>
-			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-		<![endif]-->
-    </head>
-    <body>
-        <div id="wrapper">
-          <div id="header">
-              <p class="comment">//******************************************************************************************</p>
-              <p class="comment">//&nbsp;Author:&nbsp;<a href="/about">Maoxu Li</a></p>
-              <p class="comment">//&nbsp;Menu:&nbsp;<a href="/">Home</a> | <a href="/categories">Categories</a> | <a href="/tags">Tags</a> | <a href="/guestbook">Guestbook</a> | <a href="/about">About</a></p>
-              <p class="comment">//******************************************************************************************</p>
-          </div>
-          <div id="main">
-          {{ content }}
-          </div>
-          <div id="footer">
-              <p class="comment">//******************************************************************************************</p>
-              <p class="comment">//&nbsp;Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://pages.github.com">Github Pages</a>.</p>
-              <p class="comment">//&nbsp;Copyright {{ site.copyright }} {{ site.author }}.</p>
-          </div>
-        </div>
-    </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>{{ site.name }} - {{ page.title }}</title>
+<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/main.css">
+<!-- css3-mediaqueries.js for IE8 or older -->
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+    <p class="comment">//******************************************************************************************</p>
+    <p class="comment">//&nbsp;Author:&nbsp;<a href="/about">Maoxu Li</a></p>
+    <p class="comment">//&nbsp;Menu:&nbsp;<a href="/">Home</a> | <a href="/categories">Categories</a> | <a href="/tags">Tags</a> | <a href="/guestbook">Guestbook</a> | <a href="/about">About</a></p>
+    <p class="comment">//******************************************************************************************</p>
+</div>
+<div id="main">
+{{ content }}
+</div>
+<div id="footer">
+    <p class="comment">//******************************************************************************************</p>
+    <p class="comment">//&nbsp;Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://pages.github.com">Github Pages</a>.</p>
+    <p class="comment">//&nbsp;Copyright {{ site.copyright }} {{ site.author }}.</p>
+</div>
+</div>
+</body>
 </html>
