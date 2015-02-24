@@ -89,7 +89,7 @@ body {
 /* for 480px or less */
 @media screen and (max-width: 480px) {
   #wrapper {
-    font-size: 55%;
+    font-size: 50%;
     color:#00f;
   }
 }
