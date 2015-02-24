@@ -60,6 +60,14 @@ body {
   font-size:100%;
 }
 
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+  #wrapper {
+	width:auto;
+    font-size: 95%;
+  }
+}
+
 /* for 640px or less */
 @media screen and (max-width: 640px) {
   #wrapper {
@@ -81,8 +89,8 @@ body {
   }
 }
 
-/* for 360px or less*/
-@media screen and (max-width: 360px) {
+/* for 320px or less*/
+@media screen and (max-width: 320px) {
   #wrapper {
     font-size: 50%;
   }
