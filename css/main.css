@@ -54,7 +54,7 @@ body {
   font-size:16px;
 }
 
-/* for 800px or less */
+/* 721 - 800 */
 @media screen and (max-width: 800px) {
   #wrapper {
 	width:auto;
@@ -62,36 +62,36 @@ body {
   }
 }
 
-/* for 720px or less */
+/* 641 - 720 */
 @media screen and (max-width: 720px) {
   #wrapper {
-    font-size: 95%;
+    font-size: 87.5%;
   }
 }
 
-/* for 640px or less */
+/* 481 - 640 */
 @media screen and (max-width: 640px) {
   #wrapper {
-    font-size: 80%;
+    font-size: 75%;
   }
 }
 
-/* less than 480px*/
+/* 361 - 480*/
 @media screen and (max-width: 480px) {
   #wrapper {
     font-size: 50%;
   }
 }
 
-/* less than 360px*/
-@media screen and (max-width: 359px) {
+/* 321 - 360*/
+@media screen and (max-width: 360px) {
   #wrapper {
     font-size: 50%;
   }
 }
 
-/* less than 320px*/
-@media screen and (max-width: 319px) {
+/* 320 and less*/
+@media screen and (max-width: 320px) {
   #wrapper {
     font-size: 37.5%;
   }
