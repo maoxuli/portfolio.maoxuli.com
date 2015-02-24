@@ -27,7 +27,7 @@ Keyboard shortcut like CTRL+S is a convenient way to control when we should send
 
 I developed a Windows desktop application to control the workflow and provide a graphic user interface (GUI) for possible configurations and notifications of running status. A system tray icon is a good choice for this application. A configuration window can be displayed from the tray icon to setup target URL, user name, email address, and any other information that may be sent along with the clipboard contents. In addition, when clipboard contents is sent to server or failed to send for some reasons, the tray icon may raise a notification with a bubble tip window shown as below screen shot:
 
-<img src="/images/clipsender.png" />
+<img src="/images/clipsender.png" width="80%" />
 	
 <div id="download" class="box">
     <p>Download source code or pre-compiled binary</p>
