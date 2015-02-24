@@ -73,7 +73,7 @@ body {
 /* for 640px or less, Moto G landscape is 598 */
 @media screen and (max-width: 640px) {
   #wrapper {
-    font-size: 80%;
+    font-size: 87.5%;
     color:#0f0;
   }
 }
