@@ -152,10 +152,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .post ul {
   margin-left:0;
+  padding-left:0;
+  list-style:none;
 }
 
 .post ul li {
-	padding-left:0;
+  margin-left:0;
+  padding-left:0;
 }
 
 .post-meta {
