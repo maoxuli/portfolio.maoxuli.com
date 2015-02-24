@@ -150,7 +150,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:bold;
 }
 
-.post ul, post ul li {
+.post ul {
+  margin-left:0;
+  padding-left:0;
+}
+
+.post ul li {
   margin-left:0;
 }
 
