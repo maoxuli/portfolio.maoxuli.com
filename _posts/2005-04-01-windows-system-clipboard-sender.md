@@ -3,6 +3,7 @@ layout: post
 title: "Windows system clipboard sender"
 categories: Windows
 tags: Clipboard HTTP Hook
+close: 2005-04-05
 ---
 
 This program demonstrated the technologies of system clipboard, keyboard hook, and HTTP communication on Windows system. The demo program is a desktop application that captures the contents of system clipboard and sends to a given URL via HTTP POST method. Extra information like user name or email address may be sent along with clipboard contents.

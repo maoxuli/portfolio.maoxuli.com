@@ -198,3 +198,28 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0.5em;
   font-size: 0.95em;
 }
+
+div.box {
+    overflow: visible;
+    border:1px dashed #B4B4B4;
+    -moz-border-radius: 5px;     
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#download {
+	margin: 20px;
+	width:550px;
+	text-align:center;
+}
+
+#download p {
+	text-align: center;
+}
+
+#download table {
+	width: 100%;
+	margin: 20px 0px;
+	text-align: center;
+	font-size:0.875em;
+}
