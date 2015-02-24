@@ -51,10 +51,10 @@ body {
   padding:0.75em;
   margin-right:auto;
   line-height:150%;
-  font-size:16px;
+  font-size:100%;
 }
 
-/* 721 - 800 */
+/* 800 and less */
 @media screen and (max-width: 800px) {
   #wrapper {
 	width:auto;
@@ -62,38 +62,24 @@ body {
   }
 }
 
-/* 641 - 720 */
+/* 720 and less */
 @media screen and (max-width: 720px) {
   #wrapper {
     font-size: 87.5%;
   }
 }
 
-/* 481 - 640 */
+/* 640 and less */
 @media screen and (max-width: 640px) {
   #wrapper {
     font-size: 75%;
   }
 }
 
-/* 361 - 480*/
+/* 480 and less*/
 @media screen and (max-width: 480px) {
   #wrapper {
     font-size: 50%;
-  }
-}
-
-/* 321 - 360*/
-@media screen and (max-width: 360px) {
-  #wrapper {
-    font-size: 50%;
-  }
-}
-
-/* 320 and less*/
-@media screen and (max-width: 320px) {
-  #wrapper {
-    font-size: 31.25%;
   }
 }
 
