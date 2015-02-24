@@ -13,16 +13,25 @@ title: Tags
 {% for tag in site.tags %}
   <p class="listing-seperator comment" id="{{ tag[0] }}">// {{ tag[0] }}</p>
 {% for post in tag[1] %}
+{% if post.close == null %}
   <p class="listing-item">
     <span>
-	{% if post.close == null %}
 	  {{ post.date | date:"%m/%Y" }} - present
-	{% else %}
-	  {{ post.date | date:"%m/%Y" }} - {{ post.close | date:"%m/%Y" }}
-	{% endif %}
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </p>
+{% endif %}
+{% endfor %}
+
+{% for post in tag[1] %}
+{% if post.close %}
+  <p class="listing-item">
+    <span>
+	  {{ post.date | date:"%m/%Y" }} - {{ post.close | date:"%m/%Y" }}
+    </span>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </p>
+{% endif %}
 {% endfor %}
 {% endfor %}
 </div>
