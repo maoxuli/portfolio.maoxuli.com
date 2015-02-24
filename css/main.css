@@ -70,7 +70,7 @@ body {
   }
 }
 
-/* for 640px or less */
+/* for 640px or less, Moto G landscape is 598 */
 @media screen and (max-width: 640px) {
   #wrapper {
     font-size: 80%;
@@ -78,7 +78,7 @@ body {
   }
 }
 
-/* for 560px or less */
+/* for 560px or less*/
 @media screen and (max-width: 560px) {
   #wrapper {
     font-size: 55%;
@@ -86,7 +86,7 @@ body {
   }
 }
 
-/* for 480px or less */
+/* for 480px or less, iPhone 4s landscape*/
 @media screen and (max-width: 480px) {
   #wrapper {
     font-size: 50%;
@@ -94,8 +94,16 @@ body {
   }
 }
 
-/* for 400px or less */
-@media screen and (max-width: 400px) {
+/* for 360px or less, Moto G portrait*/
+@media screen and (max-width: 360px) {
+  #wrapper {
+    font-size: 50%;
+    color:#f00;
+  }
+}
+
+/* for 320px or less, iPhone 4s portrait*/
+@media screen and (max-width: 320px) {
   #wrapper {
     font-size: 50%;
     color:#f00;
