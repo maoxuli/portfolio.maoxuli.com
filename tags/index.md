@@ -15,7 +15,11 @@ title: Tags
 {% for post in tag[1] %}
   <p class="listing-item">
     <span>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+	{% if post.close == null %}
+	  {{ post.date | date:"%m/%Y" }} - present
+	{% else %}
+	  {{ post.date | date:"%m/%Y" }} - {{ post.close | date:"%m/%Y" }}
+	{% endif %}
     </span>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </p>
