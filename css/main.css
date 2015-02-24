@@ -70,26 +70,19 @@ body {
 /* for 480px or less*/
 @media screen and (max-width: 480px) {
   #wrapper {
-    font-size: 70%;
+    font-size: 62.5%;
   }
 }
 
-/* for 400px or less, old mobile landscape*/
+/* for 400px or less*/
 @media screen and (max-width: 400px) {
   #wrapper {
     font-size: 55%;
   }
 }
 
-/* for 360px or less, mobile portrait*/
+/* for 360px or less*/
 @media screen and (max-width: 360px) {
-  #wrapper {
-    font-size: 55%;
-  }
-}
-
-/* for 320px or less, old mobile portrait*/
-@media screen and (max-width: 320px) {
   #wrapper {
     font-size: 50%;
   }
