@@ -114,7 +114,7 @@ Other functions like construction of Trie. seach in Trie, and traversal of a Tri
  	
 # Implementation and testing
 
-The design is implemented with C++. To be simple, all implementation is in a single C++ file. Please find a complete copy of the source code <a href="https://github.com/maoxuli/trie">here</a>.
+The design is implemented with C++. To be simple, all implementation is in a single C++ file. Please find a complete copy of the source code <a href="https://github.com/maoxuli/compounds">here</a>.
 
 The source code is compiled on Mac OS X 10.8 with g++ 4.2 and on Windows XP with Visual C++ Express 2010. 
 The executable program tries to load the dictionary from a file named “wordsforproblem.txt” located in the same folder of the program. If it is failed to load the file, the program load the words of the example given above.
