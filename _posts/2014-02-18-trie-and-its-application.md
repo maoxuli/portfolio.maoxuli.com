@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Data structure Trie and its application"
-categories: Data Structure and Algorithms
-tags: Trie "Dynamic Programming"
+categories: 'Data Structure and Algorithms'
+tags: Trie, 'Dynamic Programming'
 close: 2014-02-20
 ---
 
@@ -14,7 +14,7 @@ an, ant, all, allot, alloy, aloe, are, ate, be
 
 the corresponding trie would be:
 
-<img src="/images/trie.gif" width="400" />
+<img src="/images/trie.gif" width="600" />
 
 The term trie comes from retrieval. This term was coined by Edward Fredkin, who pronounces it /ˈtriː/ "tree" as in the word retrieval. However, other authors pronounce it /ˈtraɪ/ "try", in an attempt to distinguish it verbally from "tree".
 
@@ -122,9 +122,9 @@ With the dictionary given in the file, the program found 97107 compound words. T
 
 Two screenshots of the program running on Mac OS X and Windows are given below:
 
-<img src="/images/trie-screen-1.png" width="400" />
+<img src="/images/trie-screen-1.png" width="600" />
 
-<img src="/images/trie-screen-2.png" width="300" />
+<img src="/images/trie-screen-2.png" width="600" />
 
 
 # Reference
