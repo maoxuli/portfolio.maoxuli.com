@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Data structure Trie and its application"
-categories: 'Data Structure and Algorithms'
-tags: Trie, 'Dynamic Programming'
+categories: 
+- Data Structure and Algorithms
+tags: 
+- Trie
+- Dynamic Programming
 close: 2014-02-20
 ---
 
