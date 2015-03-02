@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>css/main.css</string>
+	<string>_includes/comments.md</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -128,7 +128,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2015-02-24T01:07:42Z</date>
+			<date>2015-02-24T20:45:06Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -196,30 +196,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>147</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>5</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>52</integer>
-				<key>line</key>
-				<integer>26</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>147</integer>
-				<key>line</key>
-				<integer>26</integer>
-			</dict>
 		</dict>
 		<key>_layouts/page.html</key>
 		<dict>
@@ -247,7 +231,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>10</integer>
 		</dict>
 		<key>_posts/2004-11-01-network-video-surveillance.md</key>
 		<dict>
@@ -282,9 +266,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>11</integer>
 				<key>line</key>
-				<integer>5</integer>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2011-09-12-nat-traversal-stun-turn-ice.md</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>458</integer>
+				<key>line</key>
+				<integer>15</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -305,12 +303,12 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2013-05-01-face-detection-and-recognition.md</key>
+		<key>_posts/2012-09-15-face-detection-and-recognition.md</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>17</integer>
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
@@ -380,14 +378,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>14</integer>
 				<key>line</key>
-				<integer>53</integer>
+				<integer>178</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>158</integer>
 		</dict>
 		<key>css/syntax.css</key>
 		<dict>
@@ -422,30 +420,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>20</integer>
+				<integer>21</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>20</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>20</integer>
-			</dict>
 		</dict>
 		<key>tags/index.md</key>
 		<dict>
@@ -494,11 +476,12 @@
 		<string>tags/index.md</string>
 		<string>about/index.md</string>
 		<string>guestbook/index.md</string>
-		<string>_posts/2013-05-01-face-detection-and-recognition.md</string>
 		<string>_posts/2010-01-01-dns-packet-parser.md</string>
 		<string>_posts/2004-11-01-network-video-surveillance.md</string>
 		<string>_posts/2006-06-01-peer-to-peer-video-streaming.md</string>
+		<string>_posts/2011-09-12-nat-traversal-stun-turn-ice.md</string>
 		<string>_posts/2014-04-01-personal-cloud-storage.md</string>
+		<string>_posts/2012-09-15-face-detection-and-recognition.md</string>
 		<string>_posts/2012-08-01-ppengine-enable-peer-to-peer.md</string>
 		<string>_config.yml</string>
 	</array>
