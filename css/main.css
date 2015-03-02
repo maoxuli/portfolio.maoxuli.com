@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-title {
+  margin-top:1em;
   padding-bottom:0.5em;
   border-bottom: 2px solid #eee;
   font-size:1.125em;
@@ -160,11 +161,8 @@ h1, h2, h3, h4, h5, h6 {
   color:#888;
 }
 
-.cloud, .listing-seperator, .post-title {
-  margin-top: 1em;
-}
-
 .listing-seperator {
+  margin-top:1em;
   margin-bottom:0;
   padding-bottom:0;
 }

@@ -3,7 +3,8 @@ layout: page
 title: Categories
 ---
 
-<div class='cloud comment'>// {{page.title}}<br>
+<p class="listing-seperator comment">// {{page.title}}</p>
+<div class='cloud'>
 {% for cat in site.categories %}
   <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }}({{ cat[1].size }})</a>
 {% endfor %}

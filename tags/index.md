@@ -3,7 +3,8 @@ layout: page
 title: Tags
 ---
 
-<div class='cloud comment'>// {{page.title}}<br>
+<p class="listing-seperator comment">// {{page.title}}</p>
+<div class="cloud">
 {% for tag in site.tags %}
   <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}({{ tag[1].size }})</a>
 {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Full lifecycle of software development"
 categories: 
 - Architecture
 tags: 
